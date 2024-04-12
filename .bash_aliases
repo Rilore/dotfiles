@@ -1,0 +1,6 @@
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias updateposh='sudo curl -s https://ohmyposh.dev/install.sh | sudo bash -s'
+alias updatesystem='sudo pacman -Syu'
+alias cleansystem='sudo pacman -Qdtq | sudo pacman -Rns -'
+alias deepcleansystem='sudo pacman -Qqd | sudo pacman -Rsu -'
