@@ -9,6 +9,3 @@ source ~/.bash_aliases
 
 PS1='[\u@\h \W]\$ '
 eval "$(oh-my-posh init bash --config ~/.poshthemes/amro.omp.json)"
-
-# assuming that /opt/mattermost-desktop/mattermost-desktop is the executable file.
-export PATH=$PATH:/opt/mattermost-desktop
